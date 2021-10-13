@@ -1,0 +1,6 @@
+framework module Pods_PhoenixClientPractice {
+  umbrella header "Pods-PhoenixClientPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

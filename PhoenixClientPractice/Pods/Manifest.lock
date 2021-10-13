@@ -1,0 +1,36 @@
+PODS:
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SwiftPhoenixClient (2.1.1):
+    - SwiftPhoenixClient/Core (= 2.1.1)
+  - SwiftPhoenixClient/Core (2.1.1)
+  - SwiftPhoenixClient/RxSwift (2.1.1):
+    - RxSwift (~> 5.0)
+    - SwiftPhoenixClient/Core
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
+  - SwiftPhoenixClient (~> 2.0)
+  - SwiftPhoenixClient/RxSwift (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftPhoenixClient
+
+SPEC CHECKSUMS:
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SwiftPhoenixClient: 472e8efb36d7be9b4148740e457d50014845d217
+
+PODFILE CHECKSUM: 2a8d8d311c59b20e61ee9f5acc6bf91817a998df
+
+COCOAPODS: 1.11.0
